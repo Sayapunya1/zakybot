@@ -50,7 +50,7 @@ const {bytesToSize,fileIO,  UploadFileUgu,telesticker, webp2mp4File, TelegraPh }
 const { smsg, getGroupAdmins, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, delay, format, logic, generateProfilePicture, parseMention, getRandom } = require('./lib/myfunc')
 const database = require('./database/database.json')
 const stcCmd = JSON.parse(fs.readFileSync('./database/command.json'))
-const { infobot } = require('./shop/infobot')
+const { infobot } = require('./lib/infobot')
 
 
 pp_bot = fs.readFileSync(thumbnail)
